@@ -1,4 +1,3 @@
-/* src/App.css */
 
 .App {
   text-align: center;
@@ -60,7 +59,7 @@ button:focus {
 main section {
   max-width: 800px;
   margin: 20px auto;
-  padding: 10px;
+  padding: 20px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -85,4 +84,69 @@ section textarea:focus {
   border-color: #007bff;
   outline: none;
   box-shadow: inset 0 1px 3px rgba(0, 123, 255, 0.2);
+}
+
+/* Media queries for responsiveness */
+
+/* Tablets and small desktops */
+@media (max-width: 1024px) {
+  .App {
+    padding: 15px;
+  }
+
+  textarea {
+    font-size: 16px; /* Slightly smaller font size */
+    height: 130px; /* Slightly smaller height */
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  main section {
+    padding: 15px;
+  }
+}
+
+/* Smartphones in portrait mode */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  textarea {
+    font-size: 14px; /* Smaller font size */
+    height: 120px; /* Smaller height */
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  main section {
+    padding: 10px;
+  }
+}
+
+/* Smartphones in landscape mode and very small devices */
+@media (max-width: 480px) {
+  .App {
+    padding: 5px;
+  }
+
+  textarea {
+    font-size: 12px; /* Smaller font size */
+    height: 100px; /* Smaller height */
+  }
+
+  button {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  main section {
+    padding: 5px;
+  }
 }

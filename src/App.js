@@ -23,7 +23,7 @@ function App() {
   return(
     <div className="App">
     <header>
-      <h1>Text Compression Using Huffman Coding</h1>
+      <h1>Text Compression Using Huffman Coding Algorithm</h1>
     </header>
     <main>
       <section >
